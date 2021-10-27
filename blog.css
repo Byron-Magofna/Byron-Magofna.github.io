@@ -1,15 +1,17 @@
 body {
     color: darkblue;
     font-family: 'Times New Roman', Times, serif;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 1);
+    margin-left: 10px;
 }
 
 h1 {
-    font-family: cursive;
+    font-family: fantasy;
 }
 
 h2 {
-    font-family: cursive;
+    font-family: fantasy;
+
 }
 
 a {
@@ -24,22 +26,39 @@ a:hover {
 .post-container {
     display: flex;
     flex-direction: column;
-    /* align-content: center; */
     justify-content: center;
     border: 1px solid #ffffff;
     /* background-color: rgba(255, 255, 255, .5); */
     background-color: black;
     border-radius: 8px;
-    margin: 0px 10px 0px 10px;
+    /* margin: 0px 10px 0px 10px; */
+    margin-right: 10px;
     padding: 0px 5px 0px 5px;
 }
 
 .post-title {
     border-top: 3px dashed white;
     padding-top: 10px;
+    text-decoration: underline;
 }
 
 #first-post {
     border-top: unset;
-    padding-top: -10px;
+}
+
+.post-link-container {
+    color: crimson;
+    display: flex;
+}
+
+.post-links {
+    border: 1px solid crimson;
+    padding-top: 2px;
+    max-width: 150px;
+    border-radius: 8px;
+    color: crimson;
+}
+
+.post-links a {
+    color: crimson;
 }

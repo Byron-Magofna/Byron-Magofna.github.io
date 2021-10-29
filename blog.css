@@ -1,7 +1,7 @@
 body {
-    color: darkblue;
+    color: whitesmoke;
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgba(0, 0, 0, 1);
+    background-color: black;
     margin-left: 10px;
 }
 
@@ -11,54 +11,48 @@ h1 {
 
 h2 {
     font-family: fantasy;
-
 }
 
 a {
     text-decoration: unset;
+    color: whitesmoke;
 }
 
 a:hover {
     text-decoration: underline;
-    color: white;
+    color: rgb(0, 61, 244);
 }
+
+/* #posts {
+    display: flex;
+} */
 
 .post-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid #ffffff;
-    /* background-color: rgba(255, 255, 255, .5); */
-    background-color: black;
+    border: 1px solid rgba(220, 0, 0, .5);
+    background-color: rgba(155, 0, 0, .5);
     border-radius: 8px;
-    /* margin: 0px 10px 0px 10px; */
-    margin-right: 10px;
+    margin: 10px 10px 10px 10px;
     padding: 0px 5px 0px 5px;
+    /* width: 500px;
+    height: 600px; */
 }
 
 .post-title {
-    border-top: 3px dashed white;
-    padding-top: 10px;
-    text-decoration: underline;
-}
-
-#first-post {
-    border-top: unset;
+    font-style: italic;
 }
 
 .post-link-container {
-    color: crimson;
+    color: whitesmoke;
     display: flex;
-}
-
-.post-links {
-    border: 1px solid crimson;
-    padding-top: 2px;
-    max-width: 150px;
+    flex-direction: column;
+    margin-left: 10px;
+    border: 1px solid rgba(155, 0, 0, .5);
+    background-color: rgba(155, 0, 0, .5);
     border-radius: 8px;
-    color: crimson;
-}
+    max-width: 130px;
+    padding: 10px 0px 0px 10px
 
-.post-links a {
-    color: crimson;
 }
